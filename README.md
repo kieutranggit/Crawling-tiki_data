@@ -29,15 +29,14 @@ data/
 
 ### Data download
 
-`data/errors/` is fully included in this repository. `data/products/` and `data/clean/` are too big
-for GitHub (about 680 MB), so only one sample file of each is included (`products_001.json`).
-The full data is on Google Drive:
+The data folders are too big for GitHub (about 680 MB), so only one sample file of each folder
+is included (`products_001.json`, `errors_001.json`). The full data is on Google Drive:
 
 | File | Content | Size |
 |---|---|---|
 | [tiki_products_raw.zip](<https://drive.google.com/file/d/13dodYNIV-6C-5cercohJcriPA0DuqWN4/view?usp=drive_link>) | `data/products/`, 200 files, description as raw HTML | 99 MB |
 | [tiki_products_clean.zip](<https://drive.google.com/file/d/12GjZI05yLXcFPNsDQLcODiqBlatQ92K1/view?usp=drive_link>) | `data/clean/`, 200 files, description normalized | 75 MB |
-| [tiki_errors.zip](<https://drive.google.com/file/d/1qkSejIVINj_R3DpVPeW1t5Ot2y7W_bPq/view?usp=drive_link>) | `data/errors/`, 200 files (same as in this repository) | 460 KB |
+| [tiki_errors.zip](<https://drive.google.com/file/d/1qkSejIVINj_R3DpVPeW1t5Ot2y7W_bPq/view?usp=drive_link>) | `data/errors/`, 200 files (failed ids + reason) | 460 KB |
 
 Unzip them inside the project folder: `unzip tiki_products_clean.zip` creates `data/clean/`.
 
