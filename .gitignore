@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.tmp
+*.zip
+
+# Full data is on Google Drive; keep only one sample file of each folder
+data/products/*
+!data/products/products_001.json
+data/clean/*
+!data/clean/products_001.json
+data/errors/*
+!data/errors/errors_001.json
